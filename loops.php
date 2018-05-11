@@ -42,6 +42,26 @@ echo $value;
 ?>
 </table>
 <h3> The next rank and suit card table will be constructed by a for loop </h3>
+<table> <tr> <th> Card Rank </th> <th> Card Suit </th> </tr>
+<?php
+//the following for loop will print the html table of card values 2 to 10 and the suit spades
+for ($spades=2;$spades<11;++$spades) {
+echo "<tr><td>".$spades."</td><td>Spades</td></tr>";
+}
+$spades = array("<tr><td>Jack</td><td>Spades</td></tr>","<tr><td>Queen</td><td>Spades</td></tr>","<tr><td>King</td><td>Spades</td></tr>","<tr><td>Ace</td><td>Spades</td></tr>");
+foreach ($spades as $value) {
+echo $value;
+}
+?>
+</table>
+<h4> The last card table will be made with a foreach loop </h4>
+<table <tr> <th> Card Rank </th> <th> Card Suit </th> </tr>
+<?php
+$Diamonds = array("<tr><td>2</td><td>Diamonds</td></tr>","<tr><td>3</td><td>Diamonds</td></tr>","<tr><td>4</td><td>Diamonds</td></tr>","<tr><td>5</td><td>Diamonds</td></tr>","<tr><td>6</td><td>Diamonds</td></tr>","<tr><td>7</td><td>Diamonds</td</tr>","<tr><td>8</td><td>Diamonds</td></tr>","<tr><td>9</td><td>Diamonds</td></tr>","<tr><td>10</td><td>Diamonds</td></tr>","<tr><td>Jack</td><td>Diamonds</td></tr>","<tr><td>Queen</td><td>Diamonds</td></tr>","<tr><td>King</td><td>Diamonds</td></tr>","<tr><td>Ace</td><td>Diamonds</td></tr>");
+foreach($Diamonds as $value) {
+echo $value;
+}
+?>
 
 </body>
 </html>
