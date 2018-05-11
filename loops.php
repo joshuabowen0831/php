@@ -62,7 +62,16 @@ foreach($Diamonds as $value) {
 echo $value;
 }
 ?>
-
+</table>
+<h5> List of cats </h5
+<ul>
+<?php
+$cats = array("<li>American Bobtail</li>","<li>Aphrodite Giant</li>","<li>Arabin Mau</li>","<li>Asian</li>","<li>Balines</li>","<li>Bambino</li>");
+foreach ($cats as $value) {
+echo $value;
+}
+?>
+</ul>
 </body>
 </html>
 
